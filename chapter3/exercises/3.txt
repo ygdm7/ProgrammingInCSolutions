@@ -1,0 +1,5 @@
+// Exercise 3 from chapter 3
+
+The expected output is the following(on Linux):
+
+$ Testing.......1...2..3

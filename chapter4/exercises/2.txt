@@ -1,0 +1,5 @@
+// Exercise 2 from chapter 4
+
+char is an invalid variable name because char is a reserved word.
+6_05 is an invalid variable name because a variable name must begin with a letter or underscore.
+A$   is an invalid variable name because $ is not a valid character.

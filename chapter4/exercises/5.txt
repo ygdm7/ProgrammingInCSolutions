@@ -1,0 +1,5 @@
+// Exercise 5 from chapter 4
+
+The expected output is the following(on Linux):
+
+$ d = d

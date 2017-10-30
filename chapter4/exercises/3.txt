@@ -1,0 +1,10 @@
+// Exercise 3 from chapter 4
+
+0996	is an invalid constant because it is not a valid octal value.
+0x10.5	is an invalid constant because hexadecimal floating constants require an exponent.
+98.7U	is an invalid constant because a floating point constant can't be unsigned.
+1.2Fe-7	is an invalid constant because Fe-7 is not a valid suffix.
+0X0G1   is an invalid constant because G is not a hexadecimal value.
+177777s is an invalid constant because s is not a valid suffix for an integer constant.
+15,000  is an invalid constant because values larger than 999 cannot be expressed using commas.
+

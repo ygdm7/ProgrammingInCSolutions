@@ -1,0 +1,5 @@
+// Exercise 6 from chapter 3
+
+The expected output is the following(on Linux):
+
+$ The result is 95

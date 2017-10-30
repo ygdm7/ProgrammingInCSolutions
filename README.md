@@ -1,0 +1,3 @@
+This repository was created to share my solutions to the exercises proposed in the third edition of the book Programming in C A complete introduction to the C programming language, written by Stephen G. Kochan. Any additions, suggestions and corrections are welcome. My only intention is to help other students learning through this material. All rights reserved to their respective owners.
+
+The software contained in this repository is licensed under the MIT License. For more details check LICENSE.md or https://choosealicense.com/licenses/mit/.
