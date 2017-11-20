@@ -1,0 +1,4 @@
+// Exercise 1 from chapter 5
+
+All examples can be found in the /examples directory of each chapter's directory.
+Some identation or spacing might be different when compared to the book's but works in the same manner.
