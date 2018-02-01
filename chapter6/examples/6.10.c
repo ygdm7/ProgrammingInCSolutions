@@ -20,10 +20,10 @@ int main( void )
 	    if( p % d == 0 )
 		isPrime = 0;
 
-	    if( isPrime != 0 )
-		printf( "%i ", p );
-
 	}
+
+	if( isPrime != 0 )
+	    printf( "%i ", p );
 
     }
 
