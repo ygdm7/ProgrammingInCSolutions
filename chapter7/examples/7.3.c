@@ -1,5 +1,5 @@
 // Program 7.3
-// Program to gnerate the first 15 Fibonacci numbers
+// Program to generate the first 15 Fibonacci numbers
 
 #include<stdio.h>
 
@@ -11,7 +11,7 @@ int main( void )
     Fibonacci[0] = 0; // by definition
     Fibonacci[1] = 1; // ditto
 
-    for( i =2; i < 15; ++i )
+    for( i = 2; i < 15; ++i )
 	Fibonacci[i] = Fibonacci[i - 2] + Fibonacci[i - 1];
 
     for( i = 0; i < 15; ++i )

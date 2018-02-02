@@ -1,0 +1,5 @@
+// Exercise 5 from chapter 7
+
+The expected output is the following(on Linux):
+
+$ 1 1 2 4 8 16 32 64 128 256

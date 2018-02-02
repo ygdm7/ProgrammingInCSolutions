@@ -1,4 +1,5 @@
-// Program 7.2
+// Exercise 3 from chapter 7
+// This program serves as a rate counter.
 
 #include<stdio.h>
 
@@ -11,13 +12,21 @@ int main( void )
 	ratingCounters[i] = 0;
 
     printf( "Enter your responses\n" );
+    printf( "Enter 999 to stop the program.\n" );
 
-    for( i = 1; i <= 20; ++i )
+    for( i = 1; ; ++i )
     {
 
 	scanf( "%i", &response );
 
-	if( response < 1 || response > 10 )
+	if( response == 999 )
+	{
+
+	    break;
+
+	}
+
+	else if( response < 1 || response > 10 )
 	    printf( "Bad response: %i\n", response );
 
 	else
