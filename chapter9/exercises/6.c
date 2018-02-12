@@ -1,5 +1,5 @@
-// Program 9.4
-// Program to determine tomorrow's date
+// Exercise 6 from chapter 9
+// This program is a rewrite of program 9.4. The dateUpdate function uses compound literals.
 
 #include<stdio.h>
 #include<stdbool.h>
@@ -24,27 +24,21 @@ struct date dateUpdate( struct date today )
     if( today.day != numberOfDays( today ) )
     {
 
-	tomorrow.day = today.day + 1;
-	tomorrow.month = today.month;
-	tomorrow.year = today.year;
+	tomorrow = ( struct date ){ today.month, today.day + 1, today.year };
 
     }
 
     else if( today.month == 12 ) // end of the year
     {
-
-	tomorrow.day = 1;
-	tomorrow.month = 1;
-	tomorrow.year = today.year + 1;
+	
+	tomorrow = ( struct date ){ 1, 1, today.year + 1 };
 
     }
 
     else // end of month
     {
-
-	tomorrow.day = 1;
-	tomorrow.month = today.month + 1;
-	tomorrow.year = today.year;
+	
+	tomorrow = ( struct date ){ today.month + 1, 1, today.year };
 
     }
 
@@ -61,13 +55,7 @@ int numberOfDays( struct date d )
     bool isLeapYear( struct date d );
     const int daysPerMonth[12] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
-/*
-I think there's an error in the book and the following line should be
-
     if( isLeapYear( d ) && d.month == 2 )
-*/
-    
-    if( isLeapYear && d.month == 2 )
 	days = 29;
 
     else
