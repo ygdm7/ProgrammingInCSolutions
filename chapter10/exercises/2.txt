@@ -1,0 +1,2 @@
+Because the following "if" statement verifies if s2[i] has a null character, meaning s2[i] is equal to s1[i] and
+consequently s1 is equal to s2. Otherwise s1 and s2 are different strings.
