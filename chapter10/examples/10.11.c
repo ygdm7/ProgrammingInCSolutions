@@ -26,7 +26,7 @@ int main( void )
     int strToInt( const char string[] );
 
     printf( "%i\n", strToInt( "245" ) );
-    printf( "%i\n", srtToInt( "100" ) + 25 );
+    printf( "%i\n", strToInt( "100" ) + 25 );
     printf( "%i\n", strToInt( "13x5" ) );
 
     return 0;
