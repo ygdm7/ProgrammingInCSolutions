@@ -1,0 +1,5 @@
+// Exercise 3 from chapter 11
+
+In order to insert elements at the front of the list it is necessary to create a pointer of the type struct entry
+that points to the first element of the list or create a struct entry and make its variable next point to the first
+entry of the list.
