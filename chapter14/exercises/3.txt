@@ -1,0 +1,13 @@
+float f = 1.00;
+short int i = 100;
+long int l = 500L;
+double d = 15.00;
+
+f + i = 101.00 float
+l / d = 33.333... double
+i / l + f = 1.00 float
+l * i = 50000 long int
+f / 2 = 0.5 float
+i / ( d + f ) = 6.25 double
+l / ( i * 2.0 ) = 2 long int
+l + i / (double)l = 500.02 double
