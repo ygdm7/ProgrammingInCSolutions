@@ -1,0 +1,15 @@
+// Exercise 10 from chapter 13
+
+Assuming
+
+#define printint(n) printf ("%i\n", x ## n)
+#define printx(n) printint(x ## n)
+
+it wouldn't be possible to display values x1 to x100 with the code
+
+for (i = 1; i < 100; ++i)
+    printx (i);
+
+because printx would receive i as a number(1 for instance) and pass x1 to printint. printint would receive x1 and
+add another x to the variable name, executing printf ("%i\n", xx1). Considering xx1 is not a variable name intended
+to be used, the above code wouldn't produce the expected result.
